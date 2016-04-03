@@ -21,7 +21,7 @@ public class VisitCountDriver extends Configured implements Tool {
         Configuration conf = getConf();
 
         if (args.length != 0 && args.length != 2) {
-            System.err.println("Usage: hdfsInputFileOrDirectory hdfsOutputDirectory"); // hdfsTagsFile");
+            System.err.println("Usage: hdfsInputFileOrDirectory hdfsOutputDirectory");
             System.exit(2);
         }
 
